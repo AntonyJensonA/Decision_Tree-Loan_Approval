@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load("Loan_model.pkl")
+model = joblib.load("Loan_Model.pkl")
 
 st.title("Loan Approval Prediction")
 
