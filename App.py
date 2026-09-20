@@ -22,7 +22,7 @@ if st.button("Predict"):
     })
     prediction = model.predict(input_data)
     pred = prediction[0]
-    if pred == 1:
+    if pred == "YES":
         st.success("Loan Approved")
     else:
         st.error("Loan Not Approved")
