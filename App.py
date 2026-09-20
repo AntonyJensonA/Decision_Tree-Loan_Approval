@@ -9,14 +9,10 @@ st.title("Loan Approval Prediction")
 income = st.number_input(
     "Enter the Income",
     min_value=0.0,
-    value=50000.0,
-    step=1000.0
 )
 credit_score = st.number_input(
     "Enter the Credit Score",
-    min_value=0.0,
-    value=720.0,
-    step=1.0
+    min_value=0.0
 )
 if st.button("Predict"):
 
